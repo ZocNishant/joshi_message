@@ -55,3 +55,11 @@
   outline-width: 0;
   margin-left: 6px;
 }
+
+/* Sidebar chats */
+
+.sidebar_chats {
+  flex: 1;
+  background-color: white;
+  overflow: scroll;
+}
