@@ -14,7 +14,7 @@ const Chat = () => {
       <div className="chat_header">
         <Avatar src={`https://api.dicebear.com/9.x/lorelei/svg`} />
         <div className="chat_headerInfo">
-          <h2>Room Name</h2>
+          <h2>Punte</h2>
           <p>Last seen at ...</p>
         </div>
         <div className="chat_headerRight">
