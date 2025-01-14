@@ -1,5 +1,6 @@
 import Messages from "../models/messages.model.js";
 
+// Getting Messages from Mongo DB
 export const getMessages = async (req, res) => {
   try {
     const messages = await Messages.find();
@@ -10,6 +11,7 @@ export const getMessages = async (req, res) => {
   }
 };
 
+// Creating Message from Mongo DB
 export const createMessage = async (req, res) => {
   const newMessage = new Messages(req.body);
   try {
