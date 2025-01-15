@@ -12,10 +12,10 @@ const app = express();
 const port = process.env.PORT || 3333;
 
 const pusher = new Pusher({
-  appId: "1924997",
+  appId: process.env.APPID,
   key: process.env.KEY,
   secret: process.env.SECRET,
-  cluster: "ap2",
+  cluster: process.env.CLUSTER,
   useTLS: true,
 });
 
