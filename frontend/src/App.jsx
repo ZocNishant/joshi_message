@@ -7,6 +7,7 @@ import Pusher from "pusher-js";
 const App = () => {
   const [messages, setMessages] = useState([]);
 
+  // pusher-js config
   useEffect(() => {
     const pusher = new Pusher("9exxxxxxxxxxxx", {
       cluster: "ap2",
