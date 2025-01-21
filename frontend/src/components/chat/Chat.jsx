@@ -32,17 +32,17 @@ const Chat = () => {
       <div className="chat_body">
         <p className="chat_message">
           <span className="chat_name">Nishant</span>
-          This is a message
+          Message 1
           <span className="chat_timestamp">{new Date().toUTCString()}</span>
         </p>
         <p className="chat_message chat_receiver">
           <span className="chat_name">Pasa</span>
-          This is a message back
+          Message 2
           <span className="chat_timestamp">{new Date().toUTCString()}</span>
         </p>
         <p className="chat_message">
           <span className="chat_name">Nishant</span>
-          This is a message again
+          Message 3
           <span className="chat_timestamp">{new Date().toUTCString()}</span>
         </p>
       </div>
