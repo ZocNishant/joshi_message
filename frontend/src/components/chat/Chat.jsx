@@ -50,7 +50,7 @@ const Chat = () => {
         <InsertEmoticon />
         <form>
           <input type="text" placeholder="Type a message.." />
-          <button type="submit">Send</button>
+          <button type="submit">Pathau</button>
         </form>
         <MicIcon />
       </div>
