@@ -1,4 +1,6 @@
 import "./Chat.css";
+
+// material icons
 import { Avatar, IconButton } from "@mui/material";
 import {
   AttachFile,
