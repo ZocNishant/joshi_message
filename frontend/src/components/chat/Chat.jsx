@@ -22,6 +22,7 @@ const Chat = () => {
         <div className="chat_headerRight">
           <IconButton>
             <SearchOutlined />
+            <SearchOutlined />
           </IconButton>
           <IconButton>
             <AttachFile />
